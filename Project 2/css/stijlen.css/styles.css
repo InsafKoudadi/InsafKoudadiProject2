@@ -1,0 +1,163 @@
+
+
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.headerStyle {
+    background-color: #ac8052;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.navigatieUl {
+    list-style: none;
+    padding: 0;
+}
+.navigatieUlLi {
+    display: inline;
+    margin: 0 15px;
+}
+.navigatieUlLi a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.image img {
+max-width: 150px;
+height: auto;
+border-radius: 10px;
+object-fit: cover;
+text-align: right;
+}
+.ervaringBalk, .hobbyBalk{
+    background-color: #ccaf97;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.portfolioTabel{
+    background-color: #ac8052;
+    padding: 20px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.custom-navbar {
+    background-color: #ccaf97; 
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.custom-navbar .navbar-brand {
+    color: white; 
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.custom-navbar .navbar-brand:hover {
+    color: #D2B48C;
+    text-decoration: none;
+}
+.custom-navbar .nav-link {
+    color: white; 
+    margin-right: 15px; 
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.custom-navbar .nav-link:hover {
+    color: #D2B48C;
+}
+.custom-navbar .navbar-toggler {
+    border-color: white;
+}
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.custom-navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.custom-jumbotron {
+    background-color: #ccaf97;
+    color: #4e342e;
+    padding: 80px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.custom-jumbotron h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.custom-jumbotron p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.btn-beige {
+    background-color: #a0522d;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.2em;
+    border-radius: 6px;
+    transition: background-color 0.3s ease; 
+}
+.btn-beige:hover {
+    background-color: #8b4513; 
+}
+
+
+/* afbeeldingen dezelfde hoogte */
+.card-img-top {
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 8px 8px 0 0;
+}
+.btn-primary {
+    background-color: #a0522d;
+    border-color: #a0522d;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #8b4513;
+    border-color: #8b4513;
+}
+.card-title {
+    font-size: 1.25em;
+    color: #4e342e;
+}
+.card-text {
+    color: #4e342e;
+}
+/* Algemene styling voor de sectietitel */
+.my-5 h3 {
+    color: #4e342e;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Styling voor de carousel-afbeeldingen */
+.carousel .carousel-item img {
+    border-radius: 8px;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    text-align: right;
+}
+
+/* Styling voor de carousel-tekst (caption) */
+.carousel-caption {
+    background-color: rgba(208, 142, 92, 0.922); /* Donkere achtergrond voor leesbaarheid */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.caption-text {
+    color: #ffffff;
+    font-size: 1em;
+    margin: 0;
+}
